@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Plain Facebook Post",
+  "version": "0.2.0",
+  "description": "Shows public Facebook posts as a plain gallery with the description. No login wall, comments or distractions.",
+  "permissions": ["storage", "declarativeNetRequest"],
+  "host_permissions": ["https://*.facebook.com/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Toggle plain post view" },
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*", "https://m.facebook.com/*", "https://web.facebook.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
