@@ -29,3 +29,5 @@ Toolbar icon toggles the extension (badge "off" = disabled); the tab reloads.
 - Photo sets are circular on Facebook. Opening a photo URL directly (not via the post) shows the
   set in a rotated order starting from a neighbour of that photo.
 - Video-only posts have no navigation; DASH-only videos may show only a poster.
+
+<img width="992" height="718" alt="image" src="https://github.com/user-attachments/assets/cf08ec13-a9e8-4147-b343-8b568d600a38" />
